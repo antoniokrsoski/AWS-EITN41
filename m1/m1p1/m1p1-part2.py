@@ -68,11 +68,15 @@ def find_x_in_cards(card_numbers):
     return result
 
 
-card_numbers = [
-    "12774212857X4109",
-    "586604X108627571",
-    "7473X86953606632",
-    "4026467X45830632",
-    "20X3092648604969",
-]
+# card_numbers = [
+#     "12774212857X4109",
+#     "586604X108627571",
+#     "7473X86953606632",
+#     "4026467X45830632",
+#     "20X3092648604969",
+# ]
+with open("p1_test_input.txt", "r") as file:
+    card_numbers = [line.strip() for line in file]
+
+
 find_x_in_cards(card_numbers)

@@ -63,14 +63,22 @@ def byte_to_hash_to_int(arg):
     print("result", result, "\n")
 
 
-# 1 in quiz
-int_to_byte(8888)
+# # 1 in quiz
+# int_to_byte(8888)
 
-# 2 in quiz
-int_to_hex(8888)
+# # 2 in quiz
+# int_to_hex(8888)
 
-# 3 in quiz
-byte_to_hash_to_int("0123456789abcdef")
+# # 3 in quiz
+# byte_to_hash_to_int("0123456789abcdef")
 
-# 4 in quiz
-byte_to_int("0123456789abcdef")
+# # 4 in quiz
+# byte_to_int("0123456789abcdef")
+
+# quiz
+
+result = int_to_hex(3152)
+print(result)
+
+result = byte_to_int("feedf00d70dadb0b")
+print(result)
